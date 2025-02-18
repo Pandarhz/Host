@@ -1,0 +1,41 @@
+html {
+    background-color: #0e081c;
+    cursor:url('maya/chien.png'), auto;
+}
+
+
+
+h1 {
+    color: #ab8bcc;
+    font-family: "Major Mono Display", monospace;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    margin: 10px;
+}
+
+#img_top {
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.gallery {
+    max-width: 100%;
+    width:1000px;
+    margin:0 auto;
+    column-count:3;
+    column-gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
