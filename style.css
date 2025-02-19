@@ -13,25 +13,7 @@ h1 {
     margin: 10px;
 }
 
-
-@media only screen and (max-width: 400px) {
-    #img_top {
-        border-radius: 5px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        margin-bottom: 15px;
-    }
-    .gallery {
-        max-width: 100%;
-        margin: 0;
-        column-count: 1;
-        column-gap: 10px;
-    }
-}
-
-@media only screen and (min-width: 401px) and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     #img_top {
         border-radius: 5px;
         display: block;
